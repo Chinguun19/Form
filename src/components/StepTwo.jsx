@@ -11,9 +11,9 @@ export function StepTwo ({ SetCurrentStep }) {
                 <h1 className=" text-[14px] mt-[12px] font-bold">Phone number</h1>
                 <input type="number"  className=" w-[416px] h-[44px] bg-white border-[1px] border-[#CBD5E1] rounded-[12px] pl-[13px] "></input>
                 <h1 className="mt-[12px] font-bold text-[14px] ">Password</h1>
-                <input type="text"  className=" w-[416px] h-[44px] bg-white border-[1px] border-[#CBD5E1] rounded-[12px] pl-[13px]"></input>
+                <input type="password"  className=" w-[416px] h-[44px] bg-white border-[1px] border-[#CBD5E1] rounded-[12px] pl-[13px]"></input>
                 <h1 className="mt-[12px] text-[14px] font-bold">Confirm password</h1>
-                <input type="text"  className=" w-[416px] h-[44px] bg-white border-[1px] border-[#CBD5E1] rounded-[12px] pl-[13px]"></input>
+                <input type="password"  className=" w-[416px] h-[44px] bg-white border-[1px] border-[#CBD5E1] rounded-[12px] pl-[13px]"></input>
 
                 <button onClick={() => SetCurrentStep(1)} className="w-[128px] h-[44px] rounded-[6px] mt-[82px] bg-white border-[1px] border-[#CBD5E1] mr-[8px]">{"<"} Back</button>
                 <button 
