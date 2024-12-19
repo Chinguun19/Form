@@ -44,10 +44,9 @@ function NameChecker(updatedForm) {
           SetError("");
         }
     }
-
-
-
 }
+
+
 function lastNameChecker(updatedForm) {
   const lastName = updatedForm.lastName
   const numbers = "0123456789";
@@ -57,7 +56,6 @@ function lastNameChecker(updatedForm) {
     let char2 = lastName[i];
     if (numbers.includes(char2) || symbols.includes(char2)) {
         SetError2("First name cannot contain special characters or numbers.");
-        SetIsTrue(isTrue)
         return false;
        
     } else {

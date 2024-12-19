@@ -1,4 +1,11 @@
 export function StepTwo ({ SetCurrentStep }) {
+
+
+
+  
+
+
+
     return (
         <div className="items-center justify-center flex h-screen w-screen bg-[#F4F4F4]">
         <div className="w-[480px] h-[655px] rounded-[8px] bg-white justify-center flex "> 
